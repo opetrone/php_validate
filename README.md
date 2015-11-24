@@ -1,9 +1,5 @@
 # php_validate
----------------------------------------------------------------------------
-----------------       Autore: Petrone Orlando Mauro       ----------------
-----------------   Licenza: rilasciato sotto licenza MIT   ----------------
-----------------             versione: 1.0                 ----------------
----------------------------------------------------------------------------
+Autore: Petrone Orlando Mauro - Licenza: rilasciato sotto licenza MIT - Versione: 1.0
 
 Una semplice libreria per la validazione sicura dei dati in PHP.
 
