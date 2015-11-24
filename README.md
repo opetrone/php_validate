@@ -1,2 +1,2 @@
 # php_validate
-A simle validation function for PHP
+A simple validation function for PHP
