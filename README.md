@@ -4,6 +4,7 @@ Una semplice libreria per la validazione sicura dei dati in PHP.
 Esempio Utilizzo:
 
 <?php
+	
 	$errore="";
 	
 	require_once('php_validate.php');
@@ -25,4 +26,5 @@ Esempio Utilizzo:
 	} else {
 		print $errore;
 	}
+
 ?>
