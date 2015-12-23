@@ -155,7 +155,7 @@ function valida_input($array_in,&$errore)
 							break;
 						case "email":
 							$validate=FILTER_VALIDATE_EMAIL;
-							$validate_option=NULL;
+							$validate_option=array("options"=>array("default"=>""));
 							$sanitize=FILTER_SANITIZE_EMAIL;
 							$sanitize_option=NULL;
 							break;
