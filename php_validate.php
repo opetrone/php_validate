@@ -1,4 +1,10 @@
 <?php
+#
+#Autore: Petrone Orlando Mauro
+#Licenza: rilasciato sotto licenza MIT
+#php_validate Versione: 1.0
+#https://github.com/opetrone/php_validate
+#
 function valida_input($array_in,&$errore)
 {
 	/* Esempio Chiamata:
