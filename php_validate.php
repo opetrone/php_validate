@@ -401,7 +401,7 @@ function controllaPIVA($piva)
 		return false;
 	    if(strlen($piva)!=11)
 	        return false;
-	    if(!ereg("^[0-9]+$", $piva))
+	    if(!preg_match("/^[0-9]+$/", $piva))
 	        return false;
 	    $primo=0;
 	    for($i=0; $i<=9; $i+=2)
