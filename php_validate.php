@@ -134,13 +134,13 @@ function valida_input($array_in,&$errore)
 							break;
 						case "data":
 							$validate=FILTER_VALIDATE_REGEXP;
-							$validate_option=array("options"=>array("regexp"=>"/^\s{0,}[0-9]{2,4}[-\/]{1}[0-9]{2}[-\/]{1}[0-9]{2,4}\s{0,}$/"));
+							$validate_option=array("options"=>array("regexp"=>"/^(\s{0,}[0-9]{2,4}[-\/]{1}[0-9]{2}[-\/]{1}[0-9]{2,4}\s{0,})?$/"));
 							$sanitize=FILTER_SANITIZE_STRING;
 							$sanitize_option=NULL;
 							break;
 						case "dataora":
 							$validate=FILTER_VALIDATE_REGEXP;
-							$validate_option=array("options"=>array("regexp"=>"/^\s{0,}[0-9]{2,4}[-\/]{1}[0-9]{2}[-\/]{1}[0-9]{2,4} [0-9]{2}:[0-9]{2}\s{0,}$/"));
+							$validate_option=array("options"=>array("regexp"=>"/^(\s{0,}[0-9]{2,4}[-\/]{1}[0-9]{2}[-\/]{1}[0-9]{2,4} [0-9]{2}:[0-9]{2}\s{0,})?$/"));
 							$sanitize=FILTER_SANITIZE_STRING;
 							$sanitize_option=NULL;
 							break;
